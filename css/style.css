@@ -400,7 +400,7 @@ a:focus {
   position: absolute;
   display: block;
   background: #fff;
-  min-width: 240px;
+  min-width: 300px;
   top: 130%;
   left: 0;
   right: 0px;
@@ -417,6 +417,8 @@ a:focus {
   opacity: 1;
   visibility: visible;
   top: 115%;
+  padding: 10px 15px;
+  white-space: normal;
 }
 
 .dropdown .dropdown-item {
@@ -1488,6 +1490,11 @@ a:focus {
   transition: all .3s;
   cursor: pointer;
   opacity: 1;
+}
+
+.my-2 {
+  margin-top: .5rem !important;
+  margin-bottom: .5rem !important;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
